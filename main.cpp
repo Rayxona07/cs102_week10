@@ -124,6 +124,7 @@ int main () {
     }
 
     }
+    //pROBLEM9
 void reverseAray(int arr[],int start, int end) {
     while (start<end) {
         int temp = arr[start];
@@ -148,7 +149,7 @@ int main() {
  }
 //Problem 10
 void reverseArray(int arr[], int start,int end) {
-    if (start>=end)
+    if (start>=end)   {
         return;
     swap(arr[start],arr[end]);
     reverseArray(arr, start+1, end-1);}
